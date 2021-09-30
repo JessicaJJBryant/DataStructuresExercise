@@ -80,8 +80,8 @@ const starWarsMovies = [
         episodeEight: "The Last Jedi",
         episodeNine: "The Rise of Skywalker"
     }
-]
+];
 
 // 6b
-starWarsMovies.splice(1, 0, ["Solo", "Rogue One"]);
+starWarsMovies.splice(1, 0, "Solo", "Rogue One");
 console.log(starWarsMovies);
