@@ -50,3 +50,33 @@ console.log(droids[`astromech`]);
 // 3c
 droids.assassin = "IG-11";
 console.log(droids);
+
+// BONUS SECTION:
+// 4
+console.log("Darth Vader"[6]);
+
+// 5
+console.log(sithLords.slice(-2, -1));
+
+// 6a
+const starWarsMovies = [
+    {
+        episodeOne: "The Phantom Menace",
+        episodeTwo: "Attack of the Clones",
+        episodeThree: "Revenge of the Sith"
+    },
+    {
+        episodeFour: "A New Hope",
+        episodeFive: "The Empire Strikes Back",
+        episodeSix: "Return of the Jedi"
+    },
+    {
+        episodeSeven: "The Force Awakens",
+        episodeEight: "The Last Jedi",
+        episodeNine: "The Rise of Skywalker"
+    }
+]
+
+// 6b
+starWarsMovies.splice(1, 0, ["Solo", "Rogue One"]);
+console.log(starWarsMovies);
