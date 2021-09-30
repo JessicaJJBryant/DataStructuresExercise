@@ -48,6 +48,9 @@ const droids = {
 console.log(droids[`astromech`]);
 
 // 3c
+console.log(droids.protocol);
+
+// 3d
 droids.assassin = "IG-11";
 console.log(droids);
 
