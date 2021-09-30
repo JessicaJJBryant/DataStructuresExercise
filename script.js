@@ -56,7 +56,9 @@ console.log(droids);
 
 // BONUS SECTION:
 // 4
-console.log("Darth Vader"[6]);
+// console.log("Darth Vader"[6]);
+
+console.log(starWarsVillains[0][6]);
 
 // 5
 console.log(sithLords.slice(-2, -1));
